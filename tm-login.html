@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>理想生活上天猫</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/tm-login.css">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<header id="header">
+		<a href="index.html">
+			<img src="images/tmall/TB1_Gn8RXXXXXXqaFXXXXXXXXXX-380-54.png">
+		</a>
+	</header><!-- /header -->
+	<div class="content">
+		<div class="login-bg">
+			<div class="inner">
+				<img src="images/tmall/TB1YE_go3vD8KJjy0FlXXagBFXa-1190-600.png">
+			</div>
+		</div>
+		<div class="login-form">
+			<div class="account-box">
+				<div class="login-title">
+					密码登录
+				</div>
+				<form method="post" action="">
+
+					<div class="username">
+						<input type="text" name="user" placeholder="会员名/邮箱/手机号" id="username" onfocus="outFocus_1()">
+						<label><i class="iconfontlogin">&#xe641;</i></label>
+						<span class="nickx"><i class="iconfontlogin delete" id="deleteicon">&#xe604;</i></span>
+					</div>
+
+					<div id="remind_1" class="remind"></div>
+
+					<div class="password">
+						<input type="password" id="pwd" name="password" onfocus="outFocus_2()">
+						<label><i class="iconfontlogin">&#xe69f;</i></label>
+					</div>
+
+					<div id="remind_2" class="remind"></div>
+
+					<div class="submit">
+						<input id="btn" type="button" value="登录" onclick="submitTest()">		
+					</div>
+
+					<p class="warning">注意！不要输入真实的账号密码</p class="warning">
+
+					<div class="login-links">
+						<a href="" id="lostpwd" onclick="noLinks();">忘记密码</a>
+						<a href="" id="lostname" onclick="noLinks();">忘记会员名</a>
+						<a href="tm-register.html">免费注册</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="js/modal-login.js"></script>
+</body>
+</html>

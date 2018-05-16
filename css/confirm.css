@@ -1,0 +1,285 @@
+#confirm-content{
+	width: 998px;
+	overflow: hidden;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+#confirm-content *{
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.confirm-logo{
+	width: 100%;
+	overflow: hidden;
+	padding-top: 30px;
+}
+
+.confirm-logo img{
+	float: left;
+	width: auto;
+	height: 30px;
+}
+
+.buyflowImg{
+	float: right !important;
+	width: auto !important;
+	height: 72px !important;
+}
+
+div.addressTip, div.productListTip {
+	color: #333333;
+	font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.addressTable{
+	margin: 20px;
+	width: 600px;
+}
+
+table{
+	background-color: transparent;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+table.addressTable td.firstColumn {
+    width: 100px;
+}
+
+table.addressTable td {
+    color: #333333;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 5px;
+    text-align: left;
+    height: 40px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+table.addressTable tr{
+
+}
+
+span.redStar {
+    color: red;
+    font-size: 8px;
+}
+
+table.addressTable td textarea {
+    border: 1px solid #AFAFAF;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 40px;
+    padding: 3px;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+table.addressTable td input {
+    border: 1px solid #AFAFAF;
+    width: 230px;
+    padding: 3px;
+}
+
+.confirm-productList{
+	width: 100%;
+	overflow: hidden;
+}
+
+.productListUl{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 30px;
+}
+
+.productListUl>li{
+	width: 100%;
+	overflow: hidden;
+}
+
+.productListUlTitle{
+	height: 35px;
+}
+
+.productListUlTitle>ul{
+	width: 100%;
+	height: 100%;
+}
+
+.productListUl>li>ul>li{
+	float: left;
+	height: 100%;
+	font-size: 12px;
+	text-align: center;
+}
+
+.productListUlTitle>ul>li{
+	line-height: 35px;
+}
+
+.productListInfo{
+	width: 568px;
+	text-align: left !important;
+}
+
+.productListInfo a{
+	color: #333333;
+	font-size: 12px;
+}
+
+.productListInfo a:hover{
+	text-decoration: underline !important;
+}
+
+.productListInfo img{
+	width: 15px;
+	vertical-align: middle;
+}
+
+.productListPrice{
+	width: 170px;
+}
+
+.productListNum{
+	width: 90px;
+}
+
+.productListTotal{
+	width: 170px;
+}
+
+.productListUlContent{
+	overflow: hidden;
+	border-top: 2px solid #b2d1ff;
+	border-bottom: 2px solid #b2d1ff;
+}
+
+.productListUlContent>ul{
+	width: 100%;
+	height: 90px !important;
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.productListUlContent>ul>li{
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+
+.productListContentInfo{
+	width: 568px;
+	text-align: left !important;
+}
+
+.productListContentInfo>img{
+	width: 70px;
+	height: 70px;
+}
+
+.productListContentInfo>*{
+	float: left;
+}
+
+.productDetails{
+	margin-left: 20px;
+	height: 70px;
+	position: relative;
+}
+
+.productDetails>a{
+	color: #333333;
+	font-size: 14px !important;
+	line-height: 30px;
+}
+
+.productDetails>a:hover{
+	text-decoration: underline !important;
+}
+
+.productEnsure{
+	height: 16px;
+	position: absolute;
+	bottom: 0;
+}
+
+.productEnsure>img{
+    height: 100%;
+    line-height: 16px;
+}
+
+.v-align-mid{
+	line-height: 70px !important;
+	font-size: 14px !important;
+}
+
+.red{
+	color: #ff0036 !important;
+}
+
+.productListBottom{
+	width: 100%;
+	height: 50px;
+	background-color: #f2f6ff;
+}
+
+.productListBottom>div{
+	float: right;
+	height: 100%;
+	overflow: hidden;
+	line-height: 50px;
+	font-size: 14px;
+	color: #777;
+	padding-right: 40px;
+}
+
+.totalPrice{
+	color: #ff0036;
+	font-size: 16px;
+}
+
+.orderTotalPriceBox{
+	width: 100%;
+	overflow: hidden;
+	margin: 40px 0;
+}
+
+.orderTotalPriceBox>div{
+	float: right;
+	overflow: hidden;
+	font-size: 18px;
+	padding-right: 40px;
+}
+
+.orderTotalPrice{
+	color: #ff0036;
+	font-size: 20px;
+}
+
+.orderSubmitBtn{
+	width: 100%;
+	overflow: hidden;
+	margin: 40px 0;
+	padding-right: 40px;
+}
+
+.submitBtn{
+	float: right;
+	width: 150px;
+	height: 50px;
+	border: 0;
+	background-color: #ff0036;
+	cursor: pointer;
+	color: #fff;
+	font-size: 18px;
+}

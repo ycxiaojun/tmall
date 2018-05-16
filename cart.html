@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>仿天猫官网-购物车</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/public.css">
+	<link rel="stylesheet" type="text/css" href="css/shoppingCart.css">
+</head>
+<body>
+	<div id="cart" >
+		<div class="cartTitle">
+			<div class="cartTitleRight">
+				<span>已选商品  (不含运费)</span>
+				<span class="cartTitleRightPrice">￥<em id="totalPrice">0.00</em></span>
+				<button type="button" id="totalBtn">结算</button>
+			</div>
+		</div>
+		<div class="cartList">
+			<table class="cartProductTable">
+				<thead>
+					<tr>
+						<th>
+							<img src="images/tmall/cartNotSelected.png" id="selectAllTop" data-selectAll="false" class="selectItem">
+							全选
+						</th>
+						<th>商品信息</th>
+						<th>单价</th>
+						<th>数量</th>
+						<th class="price">金额</th>
+						<th class="operation">操作</th>
+					</tr>
+				</thead>
+				<tbody id="CartList">
+				</tbody>
+			</table>
+		</div>
+		<div class="cartTotal">
+			<img src="images/tmall/cartNotSelected.png" id="selectAllBottom" data-selectAll="false" class="selectItem">
+			<span>全选</span>
+			<div class="cartTotalRight">
+				<span>
+					已选商品
+					<span id="cartSumNum">0</span>
+					件
+				</span>
+				<span>合计 （不含运费）：</span>
+				<span id="cartSumPrice">￥0.00</span>
+				<button type="button" id="orderBtn">结算</button>		
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/data.js"></script>
+<script type="text/javascript" src="js/cart.js"></script>
+<script type="text/javascript" src="js/public.js"></script>
+</body>
+</html>

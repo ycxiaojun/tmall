@@ -1,0 +1,40 @@
+#payment-content{
+	width: 998px;
+	overflow: hidden;
+	margin: 30px auto;
+}
+
+.payment-logo{
+	width: 100%;
+	overflow: hidden;
+}
+
+.alipay,.alipay div{
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+
+.alipayTitle p{
+	margin-bottom: 20px;
+	font-size: 14px;
+	color: #777;
+}
+
+.alipayTitle h3{
+	color: #ff0036;
+	margin-bottom: 30px;
+}
+
+.alipayBtn button{
+	background-color: #00aaee;
+    border: 1px solid #00aaee;
+    text-align: center;
+    line-height: 31px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    width: 107px;
+    margin-top: 20px;
+    cursor: pointer;
+}
